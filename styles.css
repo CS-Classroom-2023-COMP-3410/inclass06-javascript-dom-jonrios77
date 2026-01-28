@@ -32,3 +32,39 @@
 .matched {
     visibility: hidden; /* Or keep them visible with a 'dimmed' effect */
 }
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #f0f2f5;
+}
+
+.game-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.stats-bar {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.stats-bar span {
+    margin: 0 15px;
+}
+
+#reset-button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: #c0392b;
+}
